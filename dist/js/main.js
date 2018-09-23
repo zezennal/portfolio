@@ -20,6 +20,7 @@ function toggleMenu() {
     
         // Set Menu State
         showMenu = true;
+        
     } else {
         menuBtn.classList.remove('close');
         menu.classList.remove('show');
@@ -28,6 +29,6 @@ function toggleMenu() {
         navItem.forEach(item => item.classList.remove('shhow'));
     
         // Set Menu State
-        showMenu = true;
+        showMenu = false;
     }
 }
