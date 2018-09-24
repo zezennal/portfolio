@@ -53,8 +53,8 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
+      width: 180px;
+      height: 180px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a; }
@@ -111,7 +111,7 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
   .portrait {
-    background: url("../img/portrait.jpg");
+    background: url("../img/portrait_small.jpg");
     width: 150px;
     height: 150px; } }
 
